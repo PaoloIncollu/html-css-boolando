@@ -15,10 +15,17 @@ img{
 
 }
 
-.category > ul li a,
-.icon-nav > a{
+.first-img{
 
+    position: absolute;
+    
+}
+
+a{
     text-decoration: none;
+}
+
+li, a, h4, h5{
     color: white;
 
 }
@@ -46,6 +53,7 @@ img{
     font-weight: bold;
 
 }
+
 
 
 
@@ -109,24 +117,30 @@ header{
     
 }
 .card{
-
+    
     width: calc(100% / 3);
-    padding: 10px 20px;
+    padding: 30px 20px;
     
-}
-
-.card .info{
-
-    padding-top: 10px;
     
-
 }
 
 .card-img{
 
     position: relative;
-    
 
+}
+
+.card-img .first-img:hover{
+
+    display: none;
+    
+}
+
+
+.info{
+
+    padding-top: 10px;
+    
 }
 
 .heart{
@@ -143,22 +157,88 @@ header{
 
 }
 
-.discount{
+.heart:hover{
+    
+    color: none;
+    color:red;
 
-    background-color: red;
-    color: white;
-    width: 40px;
-    line-height: 20px;
-    text-align: center;
-    vertical-align: middle;
+}
+
+.info-dress{
+
+    display: flex;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 0;
 
 }
 
+.discount{
+
+    background-color: red;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    margin-right: 5px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    
+    
+
+}
+
+.sustainable{
+
+    background-color: green;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
 /*Footer*/
 
+footer{
+
+    background-color: #1A1A1A;
+    padding: 30px 0;
+}
+
+.info-footer{
+
+    display:flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+
+.social-icon ul {
+
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 10px;
+    
+}
+
+.right-footer h4{
+
+    padding-bottom: 10px;
+
+}
+
+.right-footer a{
+
+    padding-right: 10px;
+
+}
 
 
 /*Debug*/
