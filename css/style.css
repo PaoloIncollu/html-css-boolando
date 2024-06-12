@@ -61,8 +61,10 @@ li, a, h4, h5{
 
 header{
 
+    width: 100%;
     background-color: #FF6900;
-
+    position: fixed;
+    z-index: 1;
 }
 
 .navigation{
@@ -100,8 +102,8 @@ header{
 .container{
 
     width: 80%;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
     
@@ -204,7 +206,7 @@ header{
 /*Footer*/
 
 footer{
-
+    
     background-color: #1A1A1A;
     padding: 30px 0;
 }
