@@ -9,9 +9,53 @@
 
 /*General*/
 
+img{
 
+    max-width: 100%;
+
+}
+
+.category > ul li a,
+.icon-nav > a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.category > ul li:nth-child(2),
+.icon-nav > a:nth-child(2){
+
+    padding: 0 10px;
+
+}
 
 /*Header*/
+
+.navigation{
+
+    display: flex;
+    background-color: #FF6900;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+
+}
+
+.category > ul{
+
+    display: flex;
+    list-style: none;
+    
+}
+
+
+.logo{
+
+    width: 100px;
+}
+
 
 
 
@@ -23,3 +67,4 @@
 
 
 /*Debug*/
+
